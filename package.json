@@ -2,7 +2,9 @@
   "name": "JATE",
   "version": "1.0.0",
   "description": "Text editor",
-  "engines": {"node": "16.x"},
+  "engines": {
+    "node": "16.x"
+  },
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
@@ -18,7 +20,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "webpack": "^5.73.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
